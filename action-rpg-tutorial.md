@@ -32,3 +32,13 @@ Unanswered questions:
 
 * Is there a best practices for file organization? I'm not a fan of putting the player script with the player 
 * Hopefully he answers why he checks !=0 before setting `velocity = input_vector`
+
+## Video 2: delta/smooth movement
+
+* from the YT comments: `move_and_collide` and `move_and_slide` are different. TODO: investigate
+* "Changes velocity from pixels/frame to some amount/second"
+* Simple explanation of `normalized()`; clamps to 1
+* Introduces accel
+* Introduces physics: friction (and explains why the check for `!=0`
+* Known bug: don't multiply max_speed by delta in clamped
+* Don't multiply by `delta` too many times!
