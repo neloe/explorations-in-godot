@@ -54,3 +54,16 @@ Unanswered questions:
 
 Notes:
 * Going to be teaching math and physics.  This should be fun!
+
+## Video 4: Scenes + ysort node (what is ysort?)
+
+* creating scenes from nodes? holy cats that's cool! Right click on node, Save Branch as Scene
+* Scenes created like this might not have the "object" at the origin; it uses the location from the parent scene as the location in the new scene
+* Why Node2D as the world?
+  * Node2D is movable (could be an issue, but can be locked if you want)
+  * Adding bushes to the Node always adds to the origin, then we move it to the location
+* Node2D -> ysort sorts nodes based on their Y position
+  * Sorts based on y position of the origin of the **scene**, not the nodes or child; design these so their height is based on the scene origin
+* ysorting is really cool
+
+
