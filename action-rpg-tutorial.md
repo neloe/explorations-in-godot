@@ -42,3 +42,15 @@ Unanswered questions:
 * Introduces physics: friction (and explains why the check for `!=0`
 * Known bug: don't multiply max_speed by delta in clamped
 * Don't multiply by `delta` too many times!
+
+## Video 3: collisions + move_and_slide
+
+* Takes suggestions from youtube to use 
+* pros and cons to using delta: not using delta makes lag noticeable and player can compensate?
+* Good discussion about hit vs hurt boxes
+* Shows debug menu: show collision boxes
+* Discusses `move_and_collide` vs `move_and_slide`: `move_and_slide` multiplies by `delta` for you
+* Shows warnings
+
+Notes:
+* Going to be teaching math and physics.  This should be fun!
