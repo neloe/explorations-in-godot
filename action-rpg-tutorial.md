@@ -66,4 +66,16 @@ Notes:
   * Sorts based on y position of the origin of the **scene**, not the nodes or child; design these so their height is based on the scene origin
 * ysorting is really cool
 
+## Video 5: Animation (part 1)
 
+* Goes for AnimationPlayer instead of what the tutorial did
+* `$`: reference child node, explains why setup needs to be in `_ready()`, not in variable declaration
+* `onready var` is cool; shortcut for initing variables holding child nodes in `_ready()`
+* big if-else-else-else is annoying to do all directions; animation trees will simplify this
+
+
+
+Notes:
+
+* After keying a frame, make sure to select the enxt frame; also, frame auto advances after keying, so don't panic
+* I love how he continually emphasizes "read the docs"
