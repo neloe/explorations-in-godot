@@ -79,3 +79,18 @@ Notes:
 
 * After keying a frame, make sure to select the enxt frame; also, frame auto advances after keying, so don't panic
 * I love how he continually emphasizes "read the docs"
+
+## Video 6: Animation with AnimationTree
+
+* Talks about generating the tree by hand, then moves to BlendState2d
+* Add animation to BlendState2d nodes
+* Cannot switch nodes in the AnimationTree unless inselect mode
+* The animation tree will remember its previous position (for the BlendState2d)... that's cool
+* Property is kind of crazy; find name by hovering over the name of the parameter in the inspector
+* Make sure to set an animation to autorun
+* Make sure you don't autorun or manually play animations over others; you get weird behavior
+* Choose the animation that plays via getting the animation state
+* Prioritize animations by moving the ones that you don't want to prioritize by moving them out (moving up/down to +/- 1.1 will prioritize left/right)
+
+
+
