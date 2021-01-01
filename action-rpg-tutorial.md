@@ -92,5 +92,18 @@ Notes:
 * Choose the animation that plays via getting the animation state
 * Prioritize animations by moving the ones that you don't want to prioritize by moving them out (moving up/down to +/- 1.1 will prioritize left/right)
 
+## Video 7: Tiling, Tilesets, Autotiling
+
+* Can't use ysort any more as root node; solution: make world a Node2D, then add a YSort child node, with the desired children in it.
+* Sprite as background, but stretching looks bad. Enable Region
+* To make a region copyable automatically, go to Import tab and set Repeat to Enabled
+* Can also use TextureRect, but not really designed to be used for background.  However, can set stretch mode to tile
+  * Is a control node, but there may be drawbacks (not sure)
+* TileMap node, create a new TileSet, then choose that to get to the TileSet editor
+* 3 types of tiles, we're using autotile
+* Cannot set snap size until a region has been collected
+* Bitmask is how you tell autotiler to place the tile: The tile will be placed only when the bitmask (red part) is satisfied
+* Can set tile as specific icon
+
 
 
