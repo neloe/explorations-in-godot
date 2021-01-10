@@ -105,5 +105,14 @@ Notes:
 * Bitmask is how you tell autotiler to place the tile: The tile will be placed only when the bitmask (red part) is satisfied
 * Can set tile as specific icon
 
+## Video 8: collisions with autotiles
+
+* Tedious, but easy
+* for depth in a top down action rpg, he recommends doing a 3d game but making it look 2d
+  * Can use the Z index, but then can't do seethru tiles like he did for the cliffs
+* Occlusion: auto lighting stuff
+
+Overall, nice and easy to set up, but slow.  However, for 2d stuff seems pretty easy.  The setup is tedious, but then using the autotiles is easy
+
 
 
