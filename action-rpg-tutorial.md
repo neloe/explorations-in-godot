@@ -114,5 +114,17 @@ Notes:
 
 Overall, nice and easy to set up, but slow.  However, for 2d stuff seems pretty easy.  The setup is tedious, but then using the autotiles is easy
 
+## Video 9: Attacking Animation / State Machine
+
+* Instead of starting the animation tree as active by default, disable it and then enable it in `_ready()`
+* Enumerations exist in Godot
+* good description of state machines
+* I like how he immediately makes the different states functions; good easy way to manage it
+* `match` statement: switch without `case` or `break`, and the "cases" can be variables; interesting
+* State machine done in code, not a construct in gdscript
+* Project settings contains the input map (can enable `wasd` movement, add new actions
+* HOLY CRAP YOU CAN MAKE CALLBACKS FROM ANIMATIONS USING NEW TRACK THIS IS SO COOL
+* Less excited version: you can add a track to animations that calls methods on objects
+* odd slide happens because we remember velocity; one fix: set to zero in the attack state machine
 
 
