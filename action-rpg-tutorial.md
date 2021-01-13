@@ -127,4 +127,10 @@ Overall, nice and easy to set up, but slow.  However, for 2d stuff seems pretty 
 * Less excited version: you can add a track to animations that calls methods on objects
 * odd slide happens because we remember velocity; one fix: set to zero in the attack state machine
 
+## Video 10: Signals / Instancing Scenes
 
+* Grouping the bushes in a Node2D breaks ysort; make the grouping node another ysort.
+* `_process_physics` vs `_process`: `_process` happens as fast as possible; physics is synced to the framerate (`delta` should be constant)
+  * Maybe use `process` unless you need physics specific stuff
+* `queue_free()` isn't instant; `free()` is.  Use `queue_free()` when possible (happens at cleanup after frame)
+* Animated Sprite simpler than blend space/animation player
