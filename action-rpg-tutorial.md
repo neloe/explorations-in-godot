@@ -134,3 +134,6 @@ Overall, nice and easy to set up, but slow.  However, for 2d stuff seems pretty 
   * Maybe use `process` unless you need physics specific stuff
 * `queue_free()` isn't instant; `free()` is.  Use `queue_free()` when possible (happens at cleanup after frame)
 * Animated Sprite simpler than blend space/animation player
+* Note to self; improve on his naming schemes when teaching instancing scenes
+  * is `export (PackedScene) var` better?
+* notice: remote and local scenes when running scene show the game tree.  That's really helpful
