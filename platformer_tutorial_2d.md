@@ -8,3 +8,7 @@
 * Interesting bit with parallax: When you put sprites in, make sure to turn off centered
 * When doing color modulation, choose EITHER the parallax object or the sprite, and be consistent
 * Modulation does a blending mode
+
+## Video 17
+
+* `get_tree().change_scene("res://path_to_scene.tscn")`: another way to reset the level
